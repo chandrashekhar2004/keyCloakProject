@@ -1,0 +1,8 @@
+keycloak:
+  realm: SpringKeyCloak
+  auth-server-url: http://localhost:8080/auth
+  resource: My-client
+  bearer-only: true
+
+server:
+  port: 8081
